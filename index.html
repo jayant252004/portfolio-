@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | Jayant Janu</title>
+
+
+
+    <style>
+
+        /* General Styles */
+
+        body {
+
+            background-color: #121212;
+
+            color: white;
+
+            font-family: 'Arial', sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+
+
+        /* Navbar */
+
+        .navbar {
+
+            background-color: #1e1e1e;
+
+            padding: 15px 50px;
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+        }
+
+
+
+        .navbar a {
+
+            color: white;
+
+            text-decoration: none;
+
+            font-size: 20px;
+
+            font-weight: bold;
+
+        }
+
+
+
+        .nav-links {
+
+            list-style: none;
+
+            display: flex;
+
+            gap: 20px;
+
+        }
+
+
+
+        .nav-links li {
+
+            display: inline;
+
+        }
+
+
+
+        .nav-links a {
+
+            font-size: 18px;
+
+            transition: 0.3s;
+
+        }
+
+
+
+        .nav-links a:hover {
+
+            color: #1e90ff;
+
+        }
+
+
+
+        /* Sections */
+
+        .section {
+
+            padding: 100px 50px;
+
+            text-align: center;
+
+        }
+
+
+
+        h1 {
+
+            font-size: 36px;
+
+            font-weight: bold;
+
+        }
+
+
+
+        /* Buttons */
+
+        .btn {
+
+            background-color: #007acc;
+
+            color: white;
+
+            padding: 12px 20px;
+
+            border-radius: 5px;
+
+            text-decoration: none;
+
+            display: inline-block;
+
+            margin-top: 20px;
+
+        }
+
+
+
+        .btn:hover {
+
+            background-color: #005faa;
+
+        }
+
+
+
+        /* About */
+
+        .about p {
+
+            max-width: 800px;
+
+            margin: 0 auto;
+
+            font-size: 18px;
+
+            line-height: 1.6;
+
+        }
+
+
+
+        /* Projects */
+
+        .projects-container {
+
+            display: flex;
+
+            justify-content: center;
+
+            gap: 20px;
+
+            flex-wrap: wrap;
+
+        }
+
+
+
+        .project-card {
+
+            background-color: #252525;
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            width: 300px;
+
+            text-align: left;
+
+        }
+
+
+
+        .project-card h3 {
+
+            color: #1e90ff;
+
+        }
+
+
+
+        .project-card p {
+
+            font-size: 16px;
+
+        }
+
+
+
+        /* Footer */
+
+        .footer {
+
+            background-color: #1e1e1e;
+
+            text-align: center;
+
+            padding: 20px;
+
+            margin-top: 50px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <a href="#">Jayant Janu</a>
+
+        <ul class="nav-links">
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="mailto:your-email@example.com">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <!-- Home Section -->
+
+    <section class="section home">
+
+        <h1>I'm Jayant Janu, a Full-Stack Developer <br> Cloud Enthusiast, and Community Leader.</h1>
+
+        <a href="#about" class="btn">About Me</a>
+
+    </section>
+
+
+
+    <!-- About Me Section -->
+
+    <section id="about" class="section about">
+
+        <h2>About Me</h2>
+
+        <p>I'm Jayant Janu, a passionate full-stack developer, cloud computing enthusiast, and community leader dedicated to building scalable and efficient digital solutions. With expertise in React, Node.js, MongoDB, and AWS, I specialize in developing interactive web applications and exploring emerging cloud technologies.</p>
+
+    </section>
+
+
+
+    <!-- Projects Section -->
+
+    <section id="projects" class="section">
+
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>Dynamic resume builder </h3>
+
+                <p>A Dynamic resume builder . Which gives a pdf resume as a output .</p>
+
+                <a class="btn" href="https://github.com/jayant252004/DYNAMIC-RESUME-BUILDER" target="_blank">GitHub Link</a>
+
+            </div>
+
+
+
+            <div class="project-card">
+
+                <h3>E commerce website </h3>
+
+                <p>A full-stack project e commerce website  using React, Node.js..</p>
+
+                <a class="btn" href="https://github.com/jayant252004/E-Commerce-Website-Using-NodeJS" target="_blank">GitHub Link</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <p>© 2025 Jayant Janu | All Rights Reserved</p>
+
+    </footer>
+
+
+
+</body>
+
+</html>
